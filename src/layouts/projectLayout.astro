@@ -1,0 +1,43 @@
+---
+import "../styles/individualProject.css";
+import NavbarProject from "../components/individualProjects/navbarProject.astro";
+import ImageLeft from '../components/individualProjects/imageLeft.astro';
+import BackgroundSection from '../components/individualProjects/backgroundSection.astro';
+import MainContent from '../components/individualProjects/mainContent.astro';
+import SubContent from '../components/individualProjects/subContent.astro';
+import ResultSection from '../components/individualProjects/resultSection.astro';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="individual-portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <article id="individual-portfolio">
+        <div class="container">
+          <ImageLeft />
+          <div class="portfolio-content">
+            <NavbarProject />
+            
+            <div class="content">
+              <MainContent />
+              <BackgroundSection />
+              <SubContent />
+              <ResultSection />
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
