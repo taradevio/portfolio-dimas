@@ -3,6 +3,7 @@ import node from "@astrojs/node";
 
 import react from "@astrojs/react";
 import markdoc from "@astrojs/markdoc";
+import keystatic from '@keystatic/astro';
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,5 +11,6 @@ export default defineConfig({
   adapter: node({
     mode: "standalone"
   }),
-  integrations: [react(), markdoc()]
+  integrations: [react(), markdoc(), keystatic()],
+  output: 'hybrid',
 });
