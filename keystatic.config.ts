@@ -4,6 +4,10 @@ import { config, fields, collection } from '@keystatic/core';
 export default config({
   storage: {
     kind: 'local',
+    // repo: {
+    //   owner: 'taradevio',
+    //   name: 'portfolio-update',
+    // }
   },
   collections: {
     posts: collection({
