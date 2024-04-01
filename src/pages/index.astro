@@ -1,8 +1,9 @@
 ---
 export const prerender = true;
-import HomeLayout from "../layouts/homeLayout.astro"
-const homeTitle = "My Portfolio"
----	
+import HomeLayout from "../layouts/homeLayout.astro";
+const homeTitle = "My Portfolio";
+---
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -10,6 +11,10 @@ const homeTitle = "My Portfolio"
     <meta name="generator" content={Astro.generator} />
   </head>
   <body>
-    <HomeLayout homeTitle={homeTitle}></HomeLayout>
+    <HomeLayout homeTitle={homeTitle} />
+    <script>
+      import '../scripts/stickynav';
+      import '../scripts/typewritter';
+    </script>
   </body>
 </html>
