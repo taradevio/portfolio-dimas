@@ -1,0 +1,21 @@
+---
+import ProjectLayout from "../../layouts/projectLayout.astro";
+export async function getStaticPaths() {
+    return [
+        {
+            params: { projects: "Eska"},
+            props: {
+                name: "Eska",
+                desc: "See More"
+            }
+        }
+    ]
+}
+const {projects} = Astro.params;
+const {name, desc} = Astro.props;
+---
+
+<ProjectLayout>
+    <h1>Hello {name};
+</ProjectLayout>
+
