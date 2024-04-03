@@ -185,6 +185,7 @@
   }
   
   .cta .button:hover {
+    border-radius: 100vw;
     background-color: var(--accentColor);
   }
   
