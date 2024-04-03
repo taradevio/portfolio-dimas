@@ -1,0 +1,104 @@
+---
+import "../../styles/projects.css";
+import NavbarProject from "../../components/individualProjects/navbarProject.astro";
+const title = "Pokchoy";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="individual-portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+  </head>
+  <body>
+    <main>
+      <article id="individual-portfolio">
+        <div class="container">
+          <div class="image-left">
+            <div class="article-image-story">
+              <img src="/src/assets/pokchoy.jpg" />
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <NavbarProject />
+
+            <div class="content">
+              <section id="main-content">
+                <h1>Title</h1>
+                <ul>
+                  <li>
+                    <strong>client:</strong> the client is a personal recommendation
+                    from university. He wants to create an illustration for his kid's
+                    assignment
+                  </li><br />
+                  <li>
+                    <strong>approach:</strong> I had to create this assignment from
+                    scratch since there is no preset available. The way I do this
+                    is by looking up the previous projects I have done
+                  </li><br />
+                  <li>
+                    <strong>Objective:</strong> Design an illustration for client's
+                    assignment
+                  </li><br />
+                  <li>
+                    <strong>Responsibilities:</strong> Research design, pilot program
+                  </li><br />
+                </ul>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+                  ratione cumque numquam voluptatibus officiis, modi tempora
+                  adipisci reiciendis deleniti doloribus ut aperiam enim
+                  repellat a quae reprehenderit nesciunt iste! Nostrum. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Quas,
+                  ratione cumque numquam voluptatibus officiis, modi tempora
+                  adipisci reiciendis deleniti doloribus ut aperiam enim
+                  repellat a quae reprehenderit nesciunt iste! Nostrum. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </section>
+              <section>
+                <h1>Background</h1>
+                <p>
+                  These years, Europe including Denmark is facing an enormous
+                  influx of refugees coming into the countries. These people are
+                  seeking a new and safe haven. The political debate in the
+                  European countries about how to deal with all these people are
+                  peaking, and the immigration systems in the european countries
+                  are not capable of dealing with the large amount of refugees.
+                  In the process of getting asylum, the asylum seeker is going
+                  through the same processes in every institution within the
+                  system because of closed data systems and no corporation or
+                  knowledge sharing between actors. We therefore decided to work
+                  around the following problem statement: How can a service
+                  system empower refugees to be able to impact the integration
+                  system of refugee allocation focusing on early-into-job
+                  strategies?
+                </p>
+              </section>
+              <section>
+                <h1>Result</h1>
+                <p>
+                  In general the test participants were positive towards the
+                  service. In various cases they stated that they would like to
+                  try using the service in their everyday life. The master
+                  thesis project and research were well recieved by the
+                  university and the collaboration partner who also saw a huge
+                  demand for this kind of system and the possibilities that it
+                  would provide to the danish healthcare system.
+                </p>
+              </section>
+              
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
