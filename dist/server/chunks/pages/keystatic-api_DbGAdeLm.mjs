@@ -87,10 +87,6 @@ function tryOrUndefined(fn) {
 const config = config$1({
   storage: {
     kind: "local"
-    // repo: {
-    //   owner: 'taradevio',
-    //   name: 'portfolio-update',
-    // }
   },
   collections: {
     posts: collection({
