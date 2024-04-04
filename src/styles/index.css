@@ -135,27 +135,27 @@
   }
   
   article > #image-1 {
-    background-image: url("/src/assets/eska.jpg");
+    background-image: url("/src/assets/images/eska.jpg");
   }
   
   article > #image-2 {
-    background-image: url("/src/assets/equilibrium.jpg");
+    background-image: url("/src/assets/images/equilibrium.jpg");
   }
   
   article > #image-3 {
-    background-image: url("/src/assets/stairs-of-silhouette.jpg");
+    background-image: url("/src/assets/images/stairs-of-silhouette.jpg");
   }
   
   article > #image-4 {
-    background-image: url("/src/assets/cashew.jpg");
+    background-image: url("/src/assets/images/cashew.jpg");
   }
   
   article > #image-5 {
-    background-image: url("/src/assets/keroncong.jpg");
+    background-image: url("/src/assets/images/keroncong.jpg");
   }
   
   article > #image-6 {
-    background-image: url("/src/assets/pokchoy.jpg");
+    background-image: url("/src/assets/images/pokchoy.jpg");
   }
   
   /* article > #image-7 {
