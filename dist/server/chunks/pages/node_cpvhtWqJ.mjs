@@ -999,7 +999,7 @@ const $$Picture = createComponent(async ($$result, $$props, $$slots) => {
 
 const imageConfig = {"service":{"entrypoint":"astro/assets/services/sharp","config":{}},"domains":[],"remotePatterns":[],"endpoint":"astro/assets/endpoint/node"};
 					const outDir = new URL("file:///workspaces/portfolio-update/dist/client/");
-					const assetsDir = new URL("_astro", outDir);
+					const assetsDir = new URL("src/assets", outDir);
 					const getImage = async (options) => await getImage$1(options, imageConfig);
 
 async function loadLocalImage(src, url) {
