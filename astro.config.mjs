@@ -13,7 +13,4 @@ export default defineConfig({
   }),
   integrations: [react(), markdoc(), keystatic()],
   output: 'hybrid',
-  build: {
-    assets: 'src/assets'
-  }
 });
